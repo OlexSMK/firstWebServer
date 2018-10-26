@@ -29,7 +29,6 @@ public class ServerHTTPCore {
     private void writeLine(String line) throws IOException{
         serverOutput.write(line);
         serverOutput.write(HTTPHeader.HTTP_EOL);
-
     }
 
     private String getLocalPath(String resourcePath){
